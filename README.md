@@ -1,2 +1,2 @@
 # minerunner
-Minerunner - application to run minecraft file without .bat :D
+Minerunner - application to run minecraft server file without .bat :D
