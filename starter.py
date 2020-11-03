@@ -53,10 +53,12 @@ if c.ver != gitver:
           offwebsiten + " = " + gitver + ". Update it here https://github.com/BlueBerrySans365/minerunner!") #https://git.io/nsissuse
 else:
     print("You have stable version for now. Thanks for using Minerunner!")
+print("-------------------------------------------")
+print("Please enter command. [help - for commands]")
+opt = input()
+if opt == "run":
+    rame = input("Please, enter size of ram to use for server (only number in GB): ")
+    filen = input("Please, enter name of server file (without .jar): ")
+    guiv = input("Please choose, do you want to see original gui? (Y - Yes | N - No): ")
+    starter(rame,filen,guiv)
 
-rame = input("Please, enter size of ram to use for server (only number in GB): ")
-filen = input("Please, enter name of server file (without .jar): ")
-guiv = input("Please choose, do you want to see original gui? (Y - Yes | N - No): ")
-starter(rame,filen,guiv)
-
-input("Are you leaving us?")
